@@ -1,0 +1,15 @@
+.header__lang-link_en {
+  color: #fff;
+  width: 29px;
+  height: 28px;
+  text-decoration: none;
+  transition: opacity 0.4s ease-in-out 0.1s;
+}
+
+.header__lang-link_en:last-child {
+  margin: 0;
+}
+
+.header__lang-link_en:hover {
+  opacity: 50%;
+}
