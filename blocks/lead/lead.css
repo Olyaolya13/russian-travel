@@ -4,7 +4,6 @@
 @import url(./__title/lead__title.css);
 
 .lead {
-  outline: 1px solid rebeccapurple;
   max-width: 948px;
   display: flex;
   flex-direction: column;
