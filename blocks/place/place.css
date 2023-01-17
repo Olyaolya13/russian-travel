@@ -4,3 +4,9 @@
 @import url(./__title/place__title.css);
 @import url(./__url-heading/place__url-heading.css);
 @import url(./__website/place__website.css);
+
+.place {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 80px;
+}
