@@ -1,10 +1,11 @@
 @import url(./__logo/header__logo.css);
+@import url(./__lang/header__lang.css);
 @import url(./__lang-link/header__lang-link.css);
 @import url(./__lang-link/_en/header__lang-link_en.css);
-@import url(./__conteiner/header__conteiner.css);
 
 .header {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   margin: 28px 48px 0;
 }
