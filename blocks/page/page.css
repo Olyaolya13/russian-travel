@@ -1,15 +1,3 @@
-@font-face {
-  font-family: 'Inter';
-  src: url(https://pictures.s3.yandex.net/frontend-developer/responsive/Inter-Regular.woff);
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: 'Inter';
-  src: url(https://pictures.s3.yandex.net/frontend-developer/responsive/Inter-Bold.woff2);
-  font-weight: bold;
-}
-
 .page {
   max-width: 1280px;
   margin: auto;
