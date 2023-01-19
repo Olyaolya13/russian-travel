@@ -7,5 +7,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 28px 48px 0;
+  margin: 29px 48px 0;
+}
+
+@media (max-width: 768px) {
+  .header {
+    margin: 28px 24px 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .header {
+    margin: 16px 16px 0;
+  }
 }
