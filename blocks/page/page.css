@@ -1,14 +1,14 @@
 .page {
   font-family: 'Inter', sans-serif;
-  /*
-  max-width: 1280px;
+  background-color: #2a2c2f;
   margin: auto;
-  font-family: 'Inter';
+  max-width: 1280px;
+  /*
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-  background-color: #2a2c2f;*/
+  */
 }
