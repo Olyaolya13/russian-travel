@@ -10,17 +10,17 @@
   text-align: center;
 }
 
-@media (max-width: 320px) {
-  .lead__subtitle {
-    font-size: 16px;
-    line-height: 20px;
-    margin-top: 16px;
-  }
-}
-
 @media (max-width: 767px) {
   .lead__subtitle {
     font-size: 4vw;
     line-height: 1;
+  }
+}
+
+@media (max-width: 321px) {
+  .lead__subtitle {
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 16px;
   }
 }
