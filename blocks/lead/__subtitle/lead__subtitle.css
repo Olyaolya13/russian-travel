@@ -17,3 +17,10 @@
     margin-top: 16px;
   }
 }
+
+@media (max-width: 767px) {
+  .lead__subtitle {
+    font-size: 5vw;
+    line-height: 1;
+  }
+}
