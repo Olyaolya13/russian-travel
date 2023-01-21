@@ -12,6 +12,13 @@
   padding-bottom: 0;
 }
 
+@media (max-width: 1023px) {
+  .place__paragraph {
+    font-size: 18px;
+    line-height: 26.08px;
+  }
+}
+
 @media (max-width: 768px) {
   .place__paragraph {
     font-size: 16px;
@@ -19,9 +26,18 @@
   }
 }
 
+@media (max-width: 767px) {
+  .place__paragraph {
+    max-width: 90%;
+    grid-column: 1;
+    margin-right: 16px;
+  }
+}
+
 @media (max-width: 320px) {
   .place__paragraph {
     max-width: 90%;
     grid-column: 1;
+    margin: 0 auto;
   }
 }

@@ -5,6 +5,14 @@
   line-height: 76px;
   margin: 0;
   margin-bottom: 48px;
+  max-width: 457px;
+}
+
+@media (max-width: 1023px) {
+  .place__title {
+    font-size: 50px;
+    line-height: 50px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -18,5 +26,6 @@
   .place__title {
     font-size: 32px;
     line-height: 35px;
+    margin: 0 16px 32px;
   }
 }
