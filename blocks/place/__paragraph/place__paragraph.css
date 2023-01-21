@@ -5,4 +5,12 @@
   line-height: 29.34px;
   margin: 0;
   grid-column: 2;
+  padding-bottom: 26px;
+}
+
+.place__paragraph:last-child {
+  padding-bottom: 0;
+}
+
+@media (max-width: 1024px) {
 }
