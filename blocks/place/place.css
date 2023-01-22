@@ -40,12 +40,8 @@
 
 @media (max-width: 767px) {
   .place {
+    display: block;
     grid-template-columns: 1fr;
-  }
-}
-
-@media (max-width: 320px) {
-  .place {
-    grid-template-columns: 1fr;
+    margin-bottom: 50px;
   }
 }

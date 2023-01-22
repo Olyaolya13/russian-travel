@@ -1,3 +1,9 @@
 .place__title_br {
   letter-spacing: 2px;
 }
+
+@media (max-width: 767px) {
+  .place__title_br {
+    letter-spacing: 0;
+  }
+}
