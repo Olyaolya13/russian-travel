@@ -2,6 +2,26 @@
 @import url(./__link/cover__link.css);
 @import url(./__subtitle/cover__subtitle.css);
 @import url(./__title/cover__title.css);
+@import url(./__container/cover__container.css);
 
 .cover {
+  width: 1184px;
+  height: 740px;
+  background: url('../../images/lots-of-train.jpg');
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  margin: 92px auto 0;
+  position: relative;
+}
+
+.cover::before {
+  content: '';
+  background: #2a2c2f;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 40%;
 }
