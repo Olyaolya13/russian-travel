@@ -4,4 +4,6 @@
   color: #fff;
   line-height: 76px;
   text-align: center;
+  max-width: 560px;
+  margin: 0;
 }

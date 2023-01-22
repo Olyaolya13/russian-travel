@@ -1,3 +1,11 @@
 .cover__link {
   text-decoration: none;
+  transition: opacity 0.4s ease-in-out 0.1s;
+  height: 100%;
+  width: 100%;
+}
+
+.cover__link:hover {
+  opacity: 50%;
+  cursor: url(../../../images/cursor.png), pointer;
 }
