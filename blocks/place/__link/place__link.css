@@ -3,4 +3,10 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
+  transition: opacity 0.4s ease-in-out 0.1s;
+}
+
+.place__link:hover {
+  opacity: 50%;
+  cursor: url(../../../images/cursor.png), pointer;
 }
