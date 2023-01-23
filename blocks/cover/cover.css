@@ -9,7 +9,8 @@
   margin: 92px 48px 0;
   position: relative;
   background-image: url(../../images/lots-of-train.jpg);
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .cover::before {
