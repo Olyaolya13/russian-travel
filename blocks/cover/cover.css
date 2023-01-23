@@ -8,9 +8,8 @@
   height: 740px;
   margin: 92px 48px 0;
   position: relative;
-  background-image: url(../../images/lots-of-train.jpg);
+  background: url(../../images/lots-of-train.jpg) no-repeat center;
   background-size: contain;
-  background-repeat: no-repeat;
 }
 
 .cover::before {
@@ -29,8 +28,9 @@
   opacity: 50%;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1094px) {
   .cover {
+    margin: 92px auto 0;
     width: 1020px;
     height: 640px;
   }
