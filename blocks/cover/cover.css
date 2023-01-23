@@ -8,13 +8,10 @@
   display: flex;
   width: 1184px;
   height: 740px;
-  background: url('../../images/lots-of-train.jpg');
-  background-size: cover;
-  background-position: center;
-  box-sizing: border-box;
   margin: 92px auto 0;
   position: relative;
-  transition: 0.1s ease 0.4s;
+  background-image: url(../../images/lots-of-train.jpg);
+  background-size: cover;
 }
 
 .cover::before {
@@ -26,9 +23,10 @@
   width: 100%;
   height: 100%;
   opacity: 30%;
+  transition: opacity 0.1s ease-in-out 0.4s;
 }
 
-.cover:hover {
+.cover:hover::before {
   opacity: 50%;
 }
 
