@@ -20,7 +20,7 @@
   .lead__subtitle {
     font-size: 25px;
     line-height: 1.2em;
-    margin-top: 16px;
+    margin-top: 21px;
   }
 }
 
@@ -28,7 +28,6 @@
   .lead__subtitle {
     max-width: 90%;
     font-size: 16px;
-    line-height: 1.2em;
-    margin-top: 16px;
+    line-height: 1.05em;
   }
 }

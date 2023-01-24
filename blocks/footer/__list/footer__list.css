@@ -1,16 +1,12 @@
 .footer__list {
-  margin-right: 18px;
+  margin-right: 0px;
 }
-.footer__list:last-child {
-  margin-right: 0;
-}
+
 @media (max-width: 723px) {
   .footer__list {
-    margin-right: 0;
     margin-bottom: 32px;
   }
   .footer__list:last-child {
-    margin-right: 0;
     margin-bottom: 0;
   }
 }

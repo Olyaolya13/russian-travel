@@ -2,5 +2,12 @@
   display: flex;
   list-style-type: none;
   margin: 0;
+  margin-top: 18px;
   padding: 0;
+}
+
+@media (max-width: 768px) {
+  .header__lang {
+    margin-top: 13px;
+  }
 }

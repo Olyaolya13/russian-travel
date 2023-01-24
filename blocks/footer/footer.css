@@ -4,6 +4,11 @@
   flex-wrap: wrap;
   margin: 92px 48px 24px;
 }
+@media (max-width: 1024px) {
+  .footer {
+    margin: 95px 48px 24px;
+  }
+}
 
 @media (max-width: 860px) {
   .footer {

@@ -15,20 +15,20 @@
 
 @media screen and (max-width: 1024px) {
   .photo-grid {
-    gap: 14px;
-    max-width: 93%;
+    gap: 12px;
+    max-width: 90%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .photo-grid {
-    max-width: 96%;
+    max-width: 94%;
   }
 }
 
 @media screen and (max-width: 320px) {
   .photo-grid {
     margin-top: 64px;
-    max-width: 94%;
+    max-width: 90%;
   }
 }
