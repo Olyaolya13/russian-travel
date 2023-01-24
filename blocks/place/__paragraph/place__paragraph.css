@@ -2,7 +2,7 @@
   color: #fff;
   font-weight: 400;
   font-size: 18px;
-  line-height: 29.34px;
+  line-height: 1.6em;
   margin: 0;
   grid-column: 2;
   padding-bottom: 26px;
@@ -14,15 +14,14 @@
 
 @media (max-width: 1023px) {
   .place__paragraph {
-    font-size: 18px;
-    line-height: 26.08px;
+    line-height: 1.4em;
   }
 }
 
 @media (max-width: 768px) {
   .place__paragraph {
     font-size: 16px;
-    line-height: 26.08px;
+    line-height: 1.58em;
   }
 }
 
