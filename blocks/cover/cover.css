@@ -28,10 +28,34 @@
   opacity: 50%;
 }
 
-@media (max-width: 1094px) {
+@media (max-width: 1200px) {
   .cover {
     margin: 92px auto 0;
-    width: 1020px;
     height: 640px;
+  }
+}
+
+@media (max-width: 970px) {
+  .cover {
+    height: 480px;
+  }
+}
+
+@media (max-width: 700px) {
+  .cover {
+    height: 350px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cover {
+    height: 250px;
+  }
+}
+
+@media (max-width: 350px) {
+  .cover {
+    margin-top: 66px;
+    height: 200px;
   }
 }

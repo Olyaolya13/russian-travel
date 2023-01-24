@@ -5,12 +5,13 @@
   color: #fff;
   text-align: center;
   margin: 0;
-  max-width: 60%;
+  max-width: 720px;
 }
 
 @media (max-width: 768px) {
   .lead__title {
     font-size: 13vw;
     line-height: 1em;
+    max-width: 720px;
   }
 }
