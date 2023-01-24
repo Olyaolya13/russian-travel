@@ -1,0 +1,11 @@
+.footer__link {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 16px;
+  transition: opacity 0.4s ease-in-out 0.1s;
+}
+
+.footer__link:hover {
+  opacity: 50%;
+  cursor: url(../../../images/cursor.png), pointer;
+}
