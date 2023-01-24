@@ -21,6 +21,12 @@
   }
 }
 
+@media (max-width: 767px) {
+  .intro {
+    margin: 88px 9px 0;
+  }
+}
+
 @media (max-width: 320px) {
   .intro {
     margin: 64px 9px 0;
