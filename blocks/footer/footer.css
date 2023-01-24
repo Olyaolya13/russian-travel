@@ -1,11 +1,25 @@
 @import url(./__copyright/footer__copyright.css);
 @import url(./__link/footer__link.css);
 @import url(./__links/footer__links.css);
+@import url(./__list/footer__list.css);
+@import url(./__nav/footer__nav.css);
 
 .footer {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  align-items: flex-end;
+  flex-wrap: wrap;
   margin: 92px 48px 24px;
+}
+
+@media (max-width: 860px) {
+  .footer {
+    margin: 88px 24px 24px;
+  }
+}
+
+@media (max-width: 723px) {
+  .footer {
+    flex-direction: column;
+    margin: 64px 16px 24px;
+  }
 }

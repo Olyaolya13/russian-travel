@@ -12,3 +12,12 @@
   opacity: 50%;
   cursor: url(../../../images/cursor.png), pointer;
 }
+
+@media (max-width: 723px) {
+  .footer__link {
+    margin-right: 0;
+    margin-bottom: 32px;
+    font-size: 24px;
+    line-height: 1em;
+  }
+}
