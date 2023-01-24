@@ -3,6 +3,9 @@
   text-decoration: none;
   margin-right: 16px;
   transition: opacity 0.4s ease-in-out 0.1s;
+  font-size: 16px;
+  line-height: 1.1em;
+  font-weight: 400;
 }
 
 .footer__link:hover {
