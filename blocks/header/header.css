@@ -6,8 +6,8 @@
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin: 29px 48px 0;
+  align-items: flex-end;
+  margin: 28px 48px 0;
 }
 
 @media (max-width: 768px) {
