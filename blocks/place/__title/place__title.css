@@ -19,7 +19,7 @@
 @media (max-width: 768px) {
   .place__title {
     font-size: 5.5vw;
-    line-height: 1em;
+    line-height: 1.2em;
   }
 }
 

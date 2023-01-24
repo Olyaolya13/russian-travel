@@ -5,9 +5,10 @@
   color: #fff;
   text-align: center;
   margin: 0;
+  max-width: 60%;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .lead__title {
     font-size: 13vw;
     line-height: 1em;
