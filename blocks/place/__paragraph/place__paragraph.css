@@ -28,15 +28,12 @@
 
 @media (max-width: 767px) {
   .place__paragraph {
-    margin-top: 32px;
     padding-bottom: 0;
   }
 }
 
 @media (max-width: 320px) {
   .place__paragraph {
-    max-width: 94%;
-    margin: 30px 16px 0;
-    line-height: 1.63em;
+    line-height: 1.56em;
   }
 }

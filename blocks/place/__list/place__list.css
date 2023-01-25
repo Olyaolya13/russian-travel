@@ -1,0 +1,12 @@
+@media (max-width: 767px) {
+  .place__list {
+    margin-top: 32px;
+  }
+}
+
+@media (max-width: 320px) {
+  .place__list {
+    max-width: calc(100% - 32px);
+    margin: 0 auto;
+  }
+}
