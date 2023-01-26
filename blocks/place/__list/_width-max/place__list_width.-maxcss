@@ -1,0 +1,3 @@
+.place__list_width-max {
+  max-width: 100%;
+}

@@ -31,6 +31,6 @@
 @media (max-width: 320px) {
   .place__title {
     font-size: 10vw;
-    margin: 0 16px 32px;
+    margin: 0 16px 31px;
   }
 }
