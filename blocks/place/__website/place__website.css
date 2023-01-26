@@ -1,6 +1,6 @@
 .place__website {
-  align-self: end;
-  margin-bottom: 48px;
+  align-self: flex-end;
+  margin-bottom: 46px;
 }
 
 @media (max-width: 320px) {

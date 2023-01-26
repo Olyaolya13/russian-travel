@@ -21,14 +21,14 @@
 @media (max-width: 768px) {
   .place__paragraph {
     font-size: 16px;
-    line-height: 1.62em;
+    line-height: 1.63em;
     max-width: 100%;
+    padding-bottom: 26px;
   }
 }
 
 @media (max-width: 767px) {
   .place__paragraph {
-    padding-bottom: 25px;
   }
 }
 
