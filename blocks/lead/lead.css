@@ -17,16 +17,8 @@
   }
 }
 
-@media (max-width: 768px) {
-  .lead {
-    margin: 0;
-    margin-top: 50px;
-  }
-}
-
 @media (max-width: 320px) {
   .lead {
-    margin: 0;
     margin-top: 48px;
   }
 }
