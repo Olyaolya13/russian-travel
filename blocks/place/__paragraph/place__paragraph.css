@@ -31,3 +31,10 @@
     padding-bottom: 25px;
   }
 }
+
+@media (max-width: 320px) {
+  .place__paragraph {
+    max-width: 100%;
+    line-height: 1.65em;
+  }
+}
