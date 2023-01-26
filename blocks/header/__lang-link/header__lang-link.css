@@ -2,9 +2,9 @@
   font-size: 24px;
   font-weight: 400;
   line-height: 1.16em;
-  padding-right: 18px;
   color: #fff;
   transition: opacity 0.4s ease-in-out 0.1s;
+  text-decoration: none;
 }
 
 .header__lang-link:hover {
