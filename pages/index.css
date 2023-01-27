@@ -33,6 +33,7 @@
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__link/place__link.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
+@import url(../blocks/place/__paragraph-wrap/place__paragraph-wrap.css);
 @import url(../blocks/place/__list/place__list.css);
 @import url(../blocks/place/__list/_width/place__list_width.css);
 @import url(../blocks/place/__list/_width-max/place__list_width.-maxcss);

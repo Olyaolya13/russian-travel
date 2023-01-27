@@ -1,7 +1,3 @@
-.place__list {
-  outline: 1px solid red;
-}
-
 @media (max-width: 767px) {
   .place__list {
     margin-top: 32px;
