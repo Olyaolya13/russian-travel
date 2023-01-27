@@ -1,6 +1,13 @@
 .place__website {
   align-self: flex-end;
-  margin-bottom: 46px;
+  margin-bottom: 48px;
+}
+
+@media (max-width: 768px) {
+  .place__website {
+    outline: 1px solid red;
+    margin-bottom: 48px;
+  }
 }
 
 @media (max-width: 320px) {
